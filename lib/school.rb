@@ -28,3 +28,4 @@ def add_student(student_name, grade)
     @roster[12] << student_name
   end
 end
+end
