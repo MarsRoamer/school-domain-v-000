@@ -19,5 +19,6 @@ else
   @roster[grade] << student_name
   @roster
 end
+end
 
 end
