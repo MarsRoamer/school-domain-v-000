@@ -13,7 +13,7 @@ end
 
 def add_student(student_name, grade)
 
-if @roster[grade] = nil
+if @roster[grade] = [].empty?
   @roster[grade] = []
 else
   @roster[grade] << student_name
