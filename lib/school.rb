@@ -29,8 +29,8 @@ end
 
 def sort
   @roster.each do |key, value|
-    puts key.sort
-    puts value.sort
+    puts key
+    value.sort
   end
 end
 
