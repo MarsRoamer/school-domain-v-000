@@ -29,7 +29,7 @@ end
 
 def sort
   @roster.map do |key, value|
-
+    puts key
     value.sort
   end
 end
