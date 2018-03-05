@@ -3,10 +3,7 @@ class School
 def initialize (name)
   @name == name
   roster = {
-    9 => [],
-    10 => [],
-    11 => [],
-    12 => []
+  
   }
   @roster = roster
 end
