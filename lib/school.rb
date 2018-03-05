@@ -28,10 +28,10 @@ def grade(grade)
 end
 
 def sort
-  @roster.each do |key, value|
-
-    puts value.sort
+  sorted_hash = {}
+  @roster.sort.each do |grade, name_array|
+    sorted_hash[grade] = (name_array.sort)
   end
+  sorted_hash
 end
-
 end
