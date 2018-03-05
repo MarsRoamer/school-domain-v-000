@@ -29,7 +29,7 @@ end
 
 def sort
   @roster.each do |key, value|
-    puts key
+    puts key.sort
     puts value.sort
   end
 end
