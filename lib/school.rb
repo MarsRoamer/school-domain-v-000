@@ -28,8 +28,8 @@ def grade(grade)
 end
 
 def sort
-  @roster.map do |key, value|
-    puts key
+  @roster.each do |key, value|
+
     value.sort
   end
 end
